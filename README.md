@@ -2,6 +2,16 @@
 
 <h2>How It Works</h3>
 <p>First, the program gets the image(saved locally) called <code>image.png</code>, and prompts Google Bard to describe the image using it's image tools. This program uses the <code>bardapi</code> library, which allows you to prompt Bard for free.</p>
+
+<h2>Installing <code>bardapi</code></h2>
+<p>
+  The following instructions are applicable only to Windows
+  <ul>
+    <li>Open a new terminal, and type <code>pip install bardapi</code></li>
+    <li>To check that it installed, type <code>bardapi --version</code></li>
+  </ul>
+</p>
+
 <h2>API Keys</h2>
 <h3>Generating API Keys</h3>
 <p>
